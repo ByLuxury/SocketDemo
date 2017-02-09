@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhoushuai.socketdemo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="获取消息"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:background="#4169E1"
+        android:textColor="#ffffff"
+        android:id="@+id/getBtn"
+        android:layout_marginTop="10dp"
+        android:onClick="getMessage"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="请点击获取"
+          android:id="@+id/showText"
+          android:gravity="center"/>
+</LinearLayout>
